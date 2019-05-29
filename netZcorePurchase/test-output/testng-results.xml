@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="13962" started-at="2019-05-29T20:09:48Z" finished-at="2019-05-29T20:10:02Z">
+    <groups>
+      <group name="Initialization">
+        <method signature="TestApplication.validateLoginPage(java.lang.String, java.lang.String)[pri:2, instance:com.itcsystems.www.TestApplication@1b604f19]" name="validateLoginPage" class="com.itcsystems.www.TestApplication"/>
+      </group> <!-- Initialization -->
+      <group name="Th">
+        <method signature="TestApplication.purchaseParkingPlan()[pri:20, instance:com.itcsystems.www.TestApplication@1b604f19]" name="purchaseParkingPlan" class="com.itcsystems.www.TestApplication"/>
+      </group> <!-- Th -->
+    </groups>
+    <test name="Test" duration-ms="13962" started-at="2019-05-29T20:09:48Z" finished-at="2019-05-29T20:10:02Z">
+      <class name="com.itcsystems.www.TestApplication">
+        <test-method status="PASS" signature="initializeChrome(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.itcsystems.www.TestApplication@1b604f19]" name="initializeChrome" is-config="true" duration-ms="6497" started-at="2019-05-29T16:09:48Z" finished-at="2019-05-29T16:09:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C:\\Users\\chandra.rai\\Desktop\\netZcorePurchase\\Report\\Report.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[C:\\Users\\chandra.rai\Desktop\\netZcore\\chromedriver.exe]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[validation.itcsystems.com:9443]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeChrome -->
+        <test-method status="PASS" signature="validateLoginPage(java.lang.String, java.lang.String)[pri:2, instance:com.itcsystems.www.TestApplication@1b604f19]" name="validateLoginPage" duration-ms="1648" started-at="2019-05-29T16:09:55Z" finished-at="2019-05-29T16:09:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[300890893]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginPage -->
+        <test-method status="PASS" signature="getScreenshots(org.testng.ITestResult)[pri:0, instance:com.itcsystems.www.TestApplication@1b604f19]" name="getScreenshots" is-config="true" duration-ms="0" started-at="2019-05-29T16:09:56Z" finished-at="2019-05-29T16:09:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateLoginPage status=SUCCESS method=TestApplication.validateLoginPage(java.lang.String, java.lang.String)[pri:2, instance:com.itcsystems.www.TestApplication@1b604f19] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getScreenshots -->
+        <test-method status="PASS" signature="purchaseParkingPlan()[pri:20, instance:com.itcsystems.www.TestApplication@1b604f19]" name="purchaseParkingPlan" duration-ms="5805" started-at="2019-05-29T16:09:56Z" finished-at="2019-05-29T16:10:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseParkingPlan -->
+        <test-method status="PASS" signature="getScreenshots(org.testng.ITestResult)[pri:0, instance:com.itcsystems.www.TestApplication@1b604f19]" name="getScreenshots" is-config="true" duration-ms="0" started-at="2019-05-29T16:10:02Z" finished-at="2019-05-29T16:10:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=purchaseParkingPlan status=SUCCESS method=TestApplication.purchaseParkingPlan()[pri:20, instance:com.itcsystems.www.TestApplication@1b604f19] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getScreenshots -->
+      </class> <!-- com.itcsystems.www.TestApplication -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

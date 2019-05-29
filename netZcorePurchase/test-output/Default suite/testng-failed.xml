@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.itcsystems.www.TestApplication">
+        <methods>
+          <include name="checkPageTitle"/>
+          <include name="validateBalanceTransfer"/>
+          <include name="getScreenshots"/>
+          <include name="addMoney"/>
+          <include name="validateLoginPage"/>
+          <include name="checkTransactionHistory"/>
+          <include name="purchaseMealplan"/>
+          <include name="checkAccountSummary"/>
+          <include name="validateBalanceRefund"/>
+        </methods>
+      </class> <!-- com.itcsystems.www.TestApplication -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  	<parameter name="cardNumber" value="300890893"/><!-- Card Number -->
+ 	<parameter name="password" value="1234"/><!-- Password -->
+ 	<parameter name="location" value="C:\\Users\\chandra.rai\\Desktop\\netZcorePurchase\\Report\\Report.html"/> 
+ 	<!-- <parameter name="webDriver" value="C:\\Users\\chandra.rai\\Desktop\\netZcorePurchase\\lib\\chromedriver.exe"/> web driver location -->
+ 	<!--<parameter name="location" value="C:\\Users\\chandra.rai\Desktop\\netZcore\\Report.html"/>location -->
+ 	<parameter name="webDriver" value="C:\\Users\\chandra.rai\Desktop\\netZcore\\chromedriver.exe"/>
+ 	<parameter name="url" value="validation.itcsystems.com:9443"/><!-- url -->
+  <groups>	
+	<run>	
+   		<include name="Initialization" /><!-- Groups -->	
+   		<include name="Th" /> <!-- Groups -->				
+    </run>	
+  </groups>	
+  <classes>
+    <class name="com.itcsystems.www.TestApplication"/>
+  </classes>
+ </test>
+</suite> 

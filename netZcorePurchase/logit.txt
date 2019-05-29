@@ -1,0 +1,5 @@
+@Echo off
+SET LOGFILE=C:\Users\chandra.rai\Desktop\netZcorePurchase\TestLog.log
+call :Logit >> %LOGFILE%
+exit /b 0
+:Logit

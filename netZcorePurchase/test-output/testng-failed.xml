@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="password" value="1234"/>
+  <parameter name="webDriver" value="C:\\Users\\chandra.rai\Desktop\\netZcore\\chromedriver.exe"/>
+  <parameter name="location" value="C:\\Users\\chandra.rai\\Desktop\\netZcorePurchase\\Report\\Report.html"/>
+  <parameter name="cardNumber" value="300890893"/>
+  <parameter name="url" value="validation.itcsystems.com:9443"/>
+  <test name="Test(failed)">
+    <parameter name="password" value="1234"/>
+    <parameter name="webDriver" value="C:\\Users\\chandra.rai\Desktop\\netZcore\\chromedriver.exe"/>
+    <parameter name="location" value="C:\\Users\\chandra.rai\\Desktop\\netZcorePurchase\\Report\\Report.html"/>
+    <parameter name="cardNumber" value="300890893"/>
+    <parameter name="url" value="validation.itcsystems.com:9443"/>
+    <groups>
+      <run>
+        <include name="Initialization"/>
+        <include name="Th"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.itcsystems.www.TestApplication">
+        <methods>
+          <include name="getScreenshots"/>
+          <include name="validateLoginPage" invocation-numbers="0"/>
+          <include name="initializeChrome"/>
+          <include name="purchaseParkingPlan"/>
+        </methods>
+      </class> <!-- com.itcsystems.www.TestApplication -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
